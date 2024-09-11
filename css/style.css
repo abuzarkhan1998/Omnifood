@@ -37,6 +37,26 @@ Default:
 /*---------------------------------*/
 
 /*---------------------------------*/
+/* Reusable Properties */
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  gap: 6.4rem;
+}
+.col--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.btn-margin-right {
+  margin-right: 1.6rem;
+}
+
+/*---------------------------------*/
+
+/*---------------------------------*/
 /* General */
 html {
   font-size: 62.5%;
@@ -169,10 +189,6 @@ body {
   /* border: 0.3rem solid #fff; */
   box-shadow: inset 0 0 0 3px #fff;
 }
-.btn-margin-right {
-  margin-right: 1.6rem;
-}
-
 .customer-container {
   display: flex;
   margin-top: 9.6rem;
