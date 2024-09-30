@@ -60,8 +60,22 @@ Default:
   grid-template-columns: repeat(2, 1fr);
 }
 
+.col--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
 .btn-margin-right {
   margin-right: 1.6rem;
+}
+
+.no-list-style {
+  list-style: none;
+}
+.center-text {
+  text-align: center;
+}
+
+.margin-btm-med {
+  margin-bottom: 4.8rem;
 }
 
 /*---------------------------------*/
@@ -106,5 +120,9 @@ body {
   font-size: 3rem;
   margin-bottom: 3.2rem;
   line-height: 1.2;
+}
+
+strong {
+  font-weight: 500;
 }
 /*---------------------------------*/

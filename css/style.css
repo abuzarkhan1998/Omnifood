@@ -172,6 +172,7 @@
 
 .section-how {
   margin-top: 9.6rem;
+  margin-bottom: 9.6rem;
 }
 .general-desc {
   text-transform: uppercase;
@@ -227,4 +228,106 @@
   padding-bottom: 45%;
   z-index: -2;
 }
+/*---------------------------------*/
+
+/*---------------------------------*/
+/* Meals */
+.section-meals {
+  margin-bottom: 9.6rem;
+}
+.meal-img {
+  width: 100%;
+  margin-bottom: 2.4rem;
+}
+.meal-tag {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 4px 8px;
+  color: #333;
+  border-radius: 100px;
+  margin-bottom: 1.6rem;
+}
+.tag-vegeterian {
+  background-color: #37b24d;
+}
+.tag-vegan {
+  background-color: #74b816;
+}
+.tag-paleo {
+  background-color: #ffd43b;
+}
+.meal-heading {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+.meal-list {
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.meal-list-item {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22;
+}
+.meals {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 1.2rem;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.meal-content {
+  padding: 0 3.2rem 4.8rem 4.8rem;
+}
+.tag-container {
+  display: flex;
+  gap: 0.4rem;
+}
+.meals:hover {
+  transform: translate(0, -2rem);
+  box-shadow: 0 3, 2rem 6.4rem rgba(0, 0, 0, 0.075);
+}
+.check-icon {
+  height: 3rem;
+  width: 3rem;
+  color: #e67e22;
+}
+
+.diet-lists {
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.diet-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.recipies:link,
+.recipies:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #e67e22;
+  font-size: 1.8rem;
+  border-bottom: 1px solid currentColor;
+  transition: all 0.3s;
+  padding: 2px;
+}
+.recipies:hover,
+.recipies:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
+
 /*---------------------------------*/
