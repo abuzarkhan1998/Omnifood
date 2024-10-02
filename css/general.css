@@ -64,7 +64,7 @@ Default:
   grid-template-columns: repeat(3, 1fr);
 }
 .btn-margin-right {
-  margin-right: 1.6rem;
+  margin-right: 1.6rem !important;
 }
 
 .no-list-style {
@@ -75,7 +75,11 @@ Default:
 }
 
 .margin-btm-med {
-  margin-bottom: 4.8rem;
+  margin-bottom: 4.8rem !important;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
 }
 
 /*---------------------------------*/
