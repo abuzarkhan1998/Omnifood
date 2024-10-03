@@ -63,6 +63,9 @@ Default:
 .col--3 {
   grid-template-columns: repeat(3, 1fr);
 }
+.col--4 {
+  grid-template-columns: repeat(4, 1fr);
+}
 .btn-margin-right {
   margin-right: 1.6rem !important;
 }
@@ -90,7 +93,8 @@ Default:
 /*---------------------------------*/
 /* General */
 html {
-  font-size: 62.5%;
+  /* font-size: 62.5%; */
+  font-size: 10px;
 }
 
 body {
