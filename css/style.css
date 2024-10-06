@@ -70,21 +70,6 @@
   line-height: 1.6;
 }
 
-.btn:link,
-.btn:visited {
-  font-size: 2rem;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 1.6rem;
-  padding: 1.6rem 3.2rem;
-  border: none;
-}
-
-.btn:hover,
-.btn:active {
-  transition: all 0.3s;
-}
-
 .btn-hero-main:link,
 .btn-hero-main:visited {
   background-color: #e67e22;
@@ -469,5 +454,69 @@
 .feature-description {
   font-size: 1.8rem;
   line-height: 1.6;
+}
+/*---------------------------------*/
+
+/*---------------------------------*/
+/* Pricing */
+.section-form {
+  padding: 9.6rem 0;
+}
+.cta {
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  height: 50rem;
+  border-radius: 11px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  overflow: hidden;
+}
+.cta-image {
+  background-image: linear-gradient(
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url("../img/eating.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.cta-form {
+  padding: 4.8rem;
+  color: #45260a;
+}
+.cta-heading {
+  color: inherit !important;
+  margin-bottom: 4.8rem !important;
+}
+.cta-desc {
+  color: inherit;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem !important;
+}
+.cta-form-fill {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+.cta-form-fill label {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.cta input,
+.cta select {
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  padding: 1.2rem;
+  background-color: #fdf2e9;
+  font-size: 1.8rem;
+  font-family: inherit;
+}
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
 /*---------------------------------*/

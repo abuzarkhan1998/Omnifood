@@ -36,6 +36,11 @@ Default:
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 8px rgba(230, 125, 34, 0.5);
+}
+
 /*---------------------------------*/
 
 /*---------------------------------*/
@@ -88,6 +93,37 @@ Default:
 .margin-btm-lg {
   margin-bottom: 6.4rem !important;
 }
+
+.btn,
+.btn:link,
+.btn:visited {
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 1.6rem;
+  padding: 1.6rem 3.2rem;
+  border: none;
+}
+
+.btn:hover,
+.btn:active {
+  transition: all 0.3s;
+}
+
+.btn--form {
+  align-self: end;
+  padding: 1.2rem;
+  cursor: pointer;
+  background-color: #45260a;
+  color: #fdf2e9;
+  border-radius: 8px;
+  transition: all 0.3ss;
+}
+
+.btn--form:hover {
+  background-color: #fdf2e9;
+  color: #555;
+}
 /*---------------------------------*/
 
 /*---------------------------------*/
@@ -102,7 +138,6 @@ body {
   line-height: 1;
   color: #555;
 }
-
 /*---------------------------------*/
 
 /*---------------------------------*/
