@@ -460,7 +460,7 @@
 /*---------------------------------*/
 /* Pricing */
 .section-form {
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 12.8rem;
 }
 .cta {
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
@@ -518,5 +518,85 @@
 .cta *:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+/*---------------------------------*/
+
+/*---------------------------------*/
+/* Footer */
+
+.section-footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+.footer-grid {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+.footer-logo {
+  margin-bottom: 3.2rem;
+  display: block;
+}
+.logo-lists {
+  list-style: none;
+  display: flex;
+  gap: 1.6rem;
+}
+.footer-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.footer-logo-container {
+  display: flex;
+  flex-direction: column;
+}
+.logo-lists a:link,
+.logo-lists a:visited {
+  text-decoration: none;
+  color: #767676;
+}
+.copyright {
+  font-size: 1.4rem;
+  color: #767676;
+  line-height: 1.6;
+  margin-top: auto;
+}
+.footer-header {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+.address-body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 3.2rem;
+  font-style: normal;
+}
+.footer-contact a:link,
+.footer-contact a:visited {
+  text-decoration: none;
+  color: #767676;
+  font-size: 1.6rem;
+  font-style: normal;
+  line-height: 1.6;
+}
+.footer-contact a:hover,
+.footer-contact a:visited {
+  color: #555;
+}
+.footer-lists {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #767676;
+  font-size: 1.6rem;
+  font-style: normal;
+}
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
 }
 /*---------------------------------*/
