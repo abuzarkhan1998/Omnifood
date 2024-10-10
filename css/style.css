@@ -458,13 +458,13 @@
 /*---------------------------------*/
 
 /*---------------------------------*/
-/* Pricing */
+/* CTA */
 .section-form {
   padding: 4.8rem 0 12.8rem;
 }
 .cta {
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
-  height: 50rem;
+  /* height: 50rem; */
   border-radius: 11px;
   display: grid;
   grid-template-columns: 2fr 1fr;
