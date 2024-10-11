@@ -59,6 +59,60 @@
 /*---------------------------------*/
 /* Below 944px */
 
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 0 8rem;
+    gap: 8rem;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+
+  .customer-container {
+    justify-content: center;
+    margin-top: 4.8rem;
+  }
+
+  .logos-container img {
+    height: 2.4rem;
+  }
+
+  .step-number {
+    font-size: 6.4rem;
+  }
+
+  .meal-content {
+    padding: 0 2.4rem 3.2rem 3.2rem;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-form-fill {
+    grid-template-columns: 1fr;
+  }
+
+  .btn--form {
+    margin-top: 1.2rem;
+  }
+}
+
 /*---------------------------------*/
 
 /*---------------------------------------------------------*/
