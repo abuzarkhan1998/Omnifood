@@ -157,6 +157,47 @@
 
 /*---------------------------------*/
 
+/*---------------------------------*/
+/* Below 704px */
+
+@media (max-width: 44em) {
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+
+  .col--3,
+  .col--4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .diet-list {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+
+  .pricing-complete,
+  .pricing-starter {
+    width: 100%;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .footer-logo-container {
+    grid-column: span 3;
+  }
+  .address {
+    grid-column: span 3;
+  }
+  .footer-nav {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+}
+/*---------------------------------*/
+
 /*---------------------------------------------------------*/
 
 /* - Font sizes (px) 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */ /* 
