@@ -25,12 +25,16 @@
       </a>
       <nav class="main-nav">
         <ul class="main-nav-ul">
-          <li><a href="#" class="main-nav-link">How it works</a></li>
-          <li><a href="#" class="main-nav-link">Meals</a></li>
-          <li><a href="#" class="main-nav-link">Testimonials</a></li>
-          <li><a href="#" class="main-nav-link">Pricing</a></li>
+          <li><a href="#how" class="main-nav-link">How it works</a></li>
+          <li><a href="#meals" class="main-nav-link">Meals</a></li>
           <li>
-            <a href="#" class="main-nav-link main-nav-button">Try for free</a>
+            <a href="#testimonials" class="main-nav-link">Testimonials</a>
+          </li>
+          <li><a href="#pricing" class="main-nav-link">Pricing</a></li>
+          <li>
+            <a href="#cta" class="main-nav-link main-nav-button"
+              >Try for free</a
+            >
           </li>
         </ul>
       </nav>
@@ -40,7 +44,7 @@
       </button>
     </header>
     <main>
-      <section class="section-hero">
+      <section class="section-hero" id="hero">
         <div class="hero-container">
           <div>
             <h1 class="primary-header">
@@ -51,10 +55,10 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </p>
-            <a href="#" class="btn btn-hero-main btn-margin-right"
+            <a href="#cta" class="btn btn-hero-main btn-margin-right"
               >Start eating well</a
             >
-            <a href="#" class="btn btn-hero-gray">Learn more &darr;</a>
+            <a href="#how" class="btn btn-hero-gray">Learn more &darr;</a>
             <div class="customer-container">
               <div class="customer-photos">
                 <img
@@ -123,7 +127,7 @@
         </div>
       </section>
 
-      <section class="section-how">
+      <section class="section-how" id="how">
         <div class="container">
           <span class="general-desc">how it works</span>
           <h2 class="heading-secondary">
@@ -190,7 +194,7 @@
         </div>
       </section>
 
-      <section class="section-meals">
+      <section class="section-meals" id="meals">
         <div class="container center-text">
           <span class="general-desc">meals</span>
           <h2 class="heading-secondary">
@@ -306,7 +310,7 @@
         </div>
       </section>
 
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <div class="testimonials-container">
           <span class="general-desc">Testimonials</span>
           <h2 class="heading-secondary">Once you try it, you can't go back</h2>
@@ -449,7 +453,7 @@
         </div>
       </section>
 
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="general-desc">pricing</span>
           <h2 class="heading-secondary">
@@ -555,7 +559,7 @@
         </div>
       </section>
 
-      <section class="section-form">
+      <section class="section-form" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-form">
@@ -713,6 +717,10 @@
     <script
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src=" https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
     ></script>
     <script defer src="js/script.js"></script>
   </body>
