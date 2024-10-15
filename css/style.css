@@ -10,6 +10,21 @@
   height: 9.6rem;
   position: relative;
 }
+
+.sticky .main-header {
+  height: 8rem;
+  background-color: rgba(255, 255, 255, 0.97);
+  position: fixed;
+  padding-top: 0;
+  padding-bottom: 0;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  width: 100%;
+  z-index: 999;
+}
+
+.sticky .section-hero {
+  margin-top: 8rem;
+}
 .header-logo {
   height: 2.2rem;
 }
