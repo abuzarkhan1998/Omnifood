@@ -106,11 +106,15 @@
             </div>
           </div>
           <div>
-            <img
-              src="img/hero.png"
-              class="hero-img"
-              alt="A food, A customer having foood"
-            />
+            <picture>
+              <source srcset="img/hero.webp" type="image/webp" />
+              <source srcset="img/hero.png" type="img/png" />
+              <img
+                src="img/hero.png"
+                class="hero-img"
+                alt="A food, A customer having foood"
+              />
+            </picture>
           </div>
         </div>
       </section>
